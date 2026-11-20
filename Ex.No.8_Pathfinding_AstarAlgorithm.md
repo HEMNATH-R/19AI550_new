@@ -1,20 +1,21 @@
 # Ex.No: 8  Implementation of Path finding using A* algorithm
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 20.11.2026                                                                          
+### REGISTER NUMBER : 212224240057
 ### AIM: 
 To write a program to create graph using waypoints and use A* algorithm to find path between source and destination.
 ### Algorithm:
-```
+
 1. Create a New Unity Project by Open the  Unity Hub and create a new 3D Project,Name the project (e.g., Pathfinding).
 2. Create Waypoints in Scene => Create empty or sphere GameObjects ( minimum 4)  and  name it as Waypoint1, Waypoint2, ..., Waypoint4
    Position them freely in the scene (not on a grid)
 3. Write a waypoint script to draw the lines between neighbors.
-4.Attach waypoint.cs script to each waypoint GameObject and Manually assign neighbors in the Inspector to form a graph.
+4. Attach waypoint.cs script to each waypoint GameObject and Manually assign neighbors in the Inspector to form a graph.
 5. Create a empty game object and name it as WaypointManager - to manage all waypoints
 6. Attach Waypoint script to it
-7.Write a Pathfinding algorithm using A*search
+7. Write a Pathfinding algorithm using A*search
 8. Create a Game Object for Player ( choose capsule or any others) and attach the script to move player from start to end waypoints
-```  
+
+
 ### Program:
 ```
 **#1.Waypoint.cs**
@@ -136,11 +137,11 @@ Check the following
 2. Neighbors set manually via Inspector
 3. WaypointGraph script on a manager
 4. AICharacter assigned a start and goal
+
+```
+
+
 ### Output:
-
-
-
-
 
 
 
